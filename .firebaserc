@@ -1,5 +1,16 @@
 {
   "projects": {
     "default": "workshop-deploy-336e8"
-  }
+  },
+  "targets": {
+    "workshop-deploy-336e8": {
+      "hosting": {
+        "prod": [
+          "workshop-deploy"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
